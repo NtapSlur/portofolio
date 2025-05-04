@@ -14,7 +14,7 @@ export default function ProjectSection() {
             >
             <div className="text-center">
                 <h1 className="font-bold text-3xl md:text-4xl pb-3">Projects</h1>
-                <p className="text-xl md:text-2xl text-gray-500">Projects I've developed during my coursework and personal learning journey.</p>
+                <p className="text-xl md:text-2xl text-gray-500">Projects I have developed during my coursework and personal learning journey.</p>
             </div>
             </motion.div>
 

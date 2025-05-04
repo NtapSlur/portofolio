@@ -37,12 +37,12 @@ export default function AboutSection() {
                     </p>
 
                     <p className="py-5 text-l md:text-xl text-gray-500 max-w-l">
-                        I'm an undergraduate CS student passionate 
+                        I am an undergraduate CS student passionate 
                         about <span className="font-bold">web development</span>, <span className="font-bold">software engineering</span>,
                         and <span className="font-bold">cybersecurity</span>. Currently focusing on building accessible and user-friendly web
                         applications with modern technologies. Outside of coding, I enjoy writing the 
                         occasional <Link href="https://medium.com/@williamsusanto82" target="_blank" className="underline hover:text-blue-500">technical blog</Link> post 
-                        to share what I’ve learned and contribute to the developer community.
+                        to share what I have learned and contribute to the developer community.
                     </p>
                 </div>
                 <div className="flex flex-row gap-8">
