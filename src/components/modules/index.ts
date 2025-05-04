@@ -1,0 +1,5 @@
+export { default as AboutSection } from "./sections/about/AboutSection"
+export * from "./sections/experience"
+export * from "./sections/skill"
+export * from "./sections/project"
+export * from "./page"
