@@ -12,7 +12,7 @@ interface ExperienceCardProps {
 export default function ExperienceCard({ title, organization, description, date, skill }: Readonly<ExperienceCardProps>) {
 
     return (
-        <div className="bg-white rounded-2xl shadow-md p-5 w-md h-full hover:shadow-lg transition duration-300 hover:scale-102 justify-between">
+        <div className="bg-white rounded-2xl shadow-md p-5 w-auto md:w-md h-full hover:shadow-lg transition duration-300 hover:scale-102 justify-between">
             <h2 className="text-xl mb-2 line-clamp-2 h-[56px] font-semibold">{title}</h2>
             <div className="border border-gray-400"></div>
             <h3 className="text-md my-3 h-10 text-gray-600 italic">{organization}</h3>

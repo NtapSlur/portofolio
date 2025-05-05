@@ -13,7 +13,7 @@ interface ProjectProp {
 
 export default function ProjectCard({ name, image, description, url, skill }: Readonly<ProjectProp>) {
     return (
-        <div className="w-[400px] border border-gray-300 rounded-xl shadow-md overflow-hidden flex flex-col">
+        <div className="w-auto md:w-[400px] border border-gray-300 rounded-xl shadow-md overflow-hidden flex flex-col">
             <div className="relative h-[200px]">
                 <Image
                     src={image}
