@@ -25,7 +25,7 @@ export default function SkillSection() {
                     viewport={{ amount: 0.2 }}
                     className=""
                 >
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-stretch will-change-transform">
+                <div className="pt-5 grid grid-cols-1 md:grid-cols-3 gap-3 items-stretch will-change-transform">
                     {SkillConstant.map((item) => {
                         return (
                             <SkillCard key={item.category} category={item.category} skill={item.skill} />
