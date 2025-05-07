@@ -25,7 +25,7 @@ export default function ProjectSection() {
                 viewport={{ amount: 0.2 }}
                 className=""
             >
-            <div className="pt-5 grid grid-cols-1 md:grid-cols-3 gap-3 items-stretch will-change-transform">
+            <div className="pt-5 grid grid-cols-1 md:grid-cols-3 gap-5 items-stretch will-change-transform">
                 {Project.map((item) => {
                     return (
                         <ProjectCard key={item.name} name={item.name} description={item.description} image={item.image} skill={item.skill} url={item.url}/>
